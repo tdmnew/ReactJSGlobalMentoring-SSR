@@ -1,0 +1,42 @@
+.movielist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 50vh;
+    width: 46rem;
+    color: #ffffff;
+    padding-bottom: 2rem;
+
+    @media (max-width: 815px) {
+        width: 30rem;
+    }
+    
+    @media (max-width: 500px) {
+        width: 18rem;
+        justify-content: center;
+    }
+}
+
+.total {
+    width: 46rem;
+    color: #ffffff;
+    background: #232323;
+
+    margin-top: 1.25rem;
+
+    @media (max-width: 815px) {
+        width: auto;
+        left: .5rem;
+    }
+
+    &__text {
+        font-weight: lighter;
+    }
+
+    &__number {
+        font-weight: bold;
+    }
+
+}

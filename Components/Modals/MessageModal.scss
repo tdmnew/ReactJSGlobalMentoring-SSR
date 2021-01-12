@@ -1,0 +1,80 @@
+.message-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100vh;
+    width: 100%;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        border-radius: 10px;
+        width: 31rem;
+        height: 15rem;
+        background: #232323;
+        letter-spacing: 1px;
+
+        p, h2 {
+            font-weight: lighter;
+            width: 27rem;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            font-weight: lighter;
+            padding: 0.45rem 0;
+        }
+
+        span {
+            font-weight: 400;
+            color: #f65261;
+            padding-bottom: 0.5rem;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            width: 27rem;
+        }
+
+        &__close-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 20px;
+            color: #ffffff;
+            background: none;
+            border: none;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 27rem;
+            height: 2.5rem;
+            padding: 2rem 0;
+
+            &__confirm {
+                border-radius: 3px;
+                height: 2.5rem;
+                width: 8.5rem;
+                cursor: pointer;
+                color: #ffffff;
+                background: #f65261;
+                border: none;
+            }
+        }
+    }
+}

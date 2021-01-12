@@ -1,0 +1,1246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root Modal Renders the Add Movie Modal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-modal"
+      >
+        <div
+          class="form-modal container"
+        >
+          <button
+            class="container__close-btn"
+            title="close"
+          >
+            X
+          </button>
+          <form>
+            <h2>
+              ADD MOVIE
+            </h2>
+            <label
+              aria-labelledby="title"
+            >
+              <span>
+                TITLE
+              </span>
+              <input
+                class="container__input"
+                name="title"
+                placeholder="Movie Title"
+                title="title"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="release date"
+            >
+              <span>
+                RELEASE DATE
+              </span>
+              <input
+                class="container__date"
+                name="release_date"
+                placeholder="Movie Release Date"
+                title="release_date"
+                type="date"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="url"
+            >
+              <span>
+                MOVIE URL
+              </span>
+              <input
+                class="container__input"
+                name="url"
+                placeholder="Movie Website"
+                title="url"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="genres"
+            >
+              <span>
+                GENRE
+              </span>
+              <div
+                class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
+                id="multiselectContainerReact"
+              >
+                <div
+                  class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+                >
+                  <input
+                    autocomplete="off"
+                    class="searchBox"
+                    id="search_input"
+                    placeholder="Select"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
+                >
+                  <ul
+                    class="optionContainer"
+                  >
+                    <li
+                      class="
+              lhyQmCtWOINviMz0WG_gr highlight 
+              false 
+              false option
+            "
+                    >
+                      Action
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Adventure
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Animation
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Comedy
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Crime
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Drama
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Fantasy
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Mystery
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Romance
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Science Fiction
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Thriller
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </label>
+            <label
+              aria-labelledby="overview"
+            >
+              <span>
+                OVERVIEW
+              </span>
+              <input
+                class="container__input"
+                name="overview"
+                placeholder="Movie Overview"
+                title="overview"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="runtime"
+            >
+              <span>
+                RUNTIME
+              </span>
+              <input
+                class="container__input"
+                min="0"
+                name="runtime"
+                placeholder="Movie Runtime"
+                title="runtime"
+                type="number"
+                value="0"
+              />
+            </label>
+            <div
+              class="container buttons"
+            >
+              <button
+                class="container buttons__reset"
+                title="reset"
+              >
+                RESET
+              </button>
+              <button
+                class="container buttons__submit"
+                title="submit"
+                type="submit"
+              >
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-modal"
+    >
+      <div
+        class="form-modal container"
+      >
+        <button
+          class="container__close-btn"
+          title="close"
+        >
+          X
+        </button>
+        <form>
+          <h2>
+            ADD MOVIE
+          </h2>
+          <label
+            aria-labelledby="title"
+          >
+            <span>
+              TITLE
+            </span>
+            <input
+              class="container__input"
+              name="title"
+              placeholder="Movie Title"
+              title="title"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="release date"
+          >
+            <span>
+              RELEASE DATE
+            </span>
+            <input
+              class="container__date"
+              name="release_date"
+              placeholder="Movie Release Date"
+              title="release_date"
+              type="date"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="url"
+          >
+            <span>
+              MOVIE URL
+            </span>
+            <input
+              class="container__input"
+              name="url"
+              placeholder="Movie Website"
+              title="url"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="genres"
+          >
+            <span>
+              GENRE
+            </span>
+            <div
+              class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
+              id="multiselectContainerReact"
+            >
+              <div
+                class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+              >
+                <input
+                  autocomplete="off"
+                  class="searchBox"
+                  id="search_input"
+                  placeholder="Select"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
+              >
+                <ul
+                  class="optionContainer"
+                >
+                  <li
+                    class="
+              lhyQmCtWOINviMz0WG_gr highlight 
+              false 
+              false option
+            "
+                  >
+                    Action
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Adventure
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Animation
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Comedy
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Crime
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Drama
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Fantasy
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Mystery
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Romance
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Science Fiction
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Thriller
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </label>
+          <label
+            aria-labelledby="overview"
+          >
+            <span>
+              OVERVIEW
+            </span>
+            <input
+              class="container__input"
+              name="overview"
+              placeholder="Movie Overview"
+              title="overview"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="runtime"
+          >
+            <span>
+              RUNTIME
+            </span>
+            <input
+              class="container__input"
+              min="0"
+              name="runtime"
+              placeholder="Movie Runtime"
+              title="runtime"
+              type="number"
+              value="0"
+            />
+          </label>
+          <div
+            class="container buttons"
+          >
+            <button
+              class="container buttons__reset"
+              title="reset"
+            >
+              RESET
+            </button>
+            <button
+              class="container buttons__submit"
+              title="submit"
+              type="submit"
+            >
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Root Modal Renders the Delete Movie Modal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="message-modal"
+      >
+        <div
+          class="message-modal container"
+        >
+          <button
+            class="container__close-btn"
+          >
+            X
+          </button>
+          <form>
+            <h2>
+              DELETE MOVIE
+            </h2>
+            <p>
+              Are you sure you want to delete this movie?
+            </p>
+            <div
+              class="container buttons"
+            >
+              <button
+                class="container buttons__confirm"
+                type="submit"
+              >
+                CONFIRM
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="message-modal"
+    >
+      <div
+        class="message-modal container"
+      >
+        <button
+          class="container__close-btn"
+        >
+          X
+        </button>
+        <form>
+          <h2>
+            DELETE MOVIE
+          </h2>
+          <p>
+            Are you sure you want to delete this movie?
+          </p>
+          <div
+            class="container buttons"
+          >
+            <button
+              class="container buttons__confirm"
+              type="submit"
+            >
+              CONFIRM
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Root Modal Renders the Edit Movie Modal 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="form-modal"
+      >
+        <div
+          class="form-modal container"
+        >
+          <button
+            class="container__close-btn"
+            title="close"
+          >
+            X
+          </button>
+          <form>
+            <h2>
+              EDIT MOVIE
+            </h2>
+            <label
+              aria-labelledby="movieid"
+            >
+              <span>
+                MOVIE ID
+              </span>
+              <input
+                class="container__movieid"
+                disabled=""
+                name="movieid"
+                placeholder="Movie ID"
+                value="1"
+              />
+            </label>
+            <label
+              aria-labelledby="title"
+            >
+              <span>
+                TITLE
+              </span>
+              <input
+                class="container__input"
+                name="title"
+                placeholder="Movie Title"
+                value="Blade Runner"
+              />
+            </label>
+            <label
+              aria-labelledby="release_date"
+            >
+              <span>
+                RELEASE DATE
+              </span>
+              <input
+                class="container__date"
+                name="release_date"
+                placeholder="Movie Release Date"
+                type="date"
+                value="1982-01-01"
+              />
+            </label>
+            <label
+              aria-labelledby="url"
+            >
+              <span>
+                MOVIE URL
+              </span>
+              <input
+                class="container__input"
+                name="url"
+                placeholder="Movie Website"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="genre"
+            >
+              <span>
+                GENRE
+              </span>
+              <div
+                class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
+                id="multiselectContainerReact"
+              >
+                <div
+                  class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+                >
+                  <span
+                    class="chip _7ahQImyV4dj0EpcNOjnwA false false"
+                  >
+                    Sci-Fi
+                    <i
+                      class="icon_cancel _1ruIhoPvyfSHg9LQB0CI6p _3crOX-etLxsZ8OgjhYCvt7"
+                    />
+                  </span>
+                  <input
+                    autocomplete="off"
+                    class="searchBox"
+                    id="search_input"
+                    placeholder="Select"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
+                >
+                  <ul
+                    class="optionContainer"
+                  >
+                    <li
+                      class="
+              lhyQmCtWOINviMz0WG_gr highlight 
+              false 
+              false option
+            "
+                    >
+                      Action
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Adventure
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Animation
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Comedy
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Crime
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Drama
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Fantasy
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Mystery
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Romance
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Science Fiction
+                    </li>
+                    <li
+                      class="
+               
+              false 
+              false option
+            "
+                    >
+                      Thriller
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </label>
+            <label
+              aria-labelledby="overview"
+            >
+              <span>
+                OVERVIEW
+              </span>
+              <input
+                class="container__input"
+                name="overview"
+                placeholder="Movie Overview"
+                value=""
+              />
+            </label>
+            <label
+              aria-labelledby="runtime"
+            >
+              <span>
+                RUNTIME
+              </span>
+              <input
+                class="container__input"
+                min="0"
+                name="runtime"
+                placeholder="Movie Runtime"
+                type="number"
+                value="120"
+              />
+            </label>
+            <div
+              class="container buttons"
+            >
+              <button
+                class="container buttons__reset"
+                title="reset"
+              >
+                RESET
+              </button>
+              <button
+                class="container buttons__submit"
+                title="submit"
+                type="submit"
+              >
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="form-modal"
+    >
+      <div
+        class="form-modal container"
+      >
+        <button
+          class="container__close-btn"
+          title="close"
+        >
+          X
+        </button>
+        <form>
+          <h2>
+            EDIT MOVIE
+          </h2>
+          <label
+            aria-labelledby="movieid"
+          >
+            <span>
+              MOVIE ID
+            </span>
+            <input
+              class="container__movieid"
+              disabled=""
+              name="movieid"
+              placeholder="Movie ID"
+              value="1"
+            />
+          </label>
+          <label
+            aria-labelledby="title"
+          >
+            <span>
+              TITLE
+            </span>
+            <input
+              class="container__input"
+              name="title"
+              placeholder="Movie Title"
+              value="Blade Runner"
+            />
+          </label>
+          <label
+            aria-labelledby="release_date"
+          >
+            <span>
+              RELEASE DATE
+            </span>
+            <input
+              class="container__date"
+              name="release_date"
+              placeholder="Movie Release Date"
+              type="date"
+              value="1982-01-01"
+            />
+          </label>
+          <label
+            aria-labelledby="url"
+          >
+            <span>
+              MOVIE URL
+            </span>
+            <input
+              class="container__input"
+              name="url"
+              placeholder="Movie Website"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="genre"
+          >
+            <span>
+              GENRE
+            </span>
+            <div
+              class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
+              id="multiselectContainerReact"
+            >
+              <div
+                class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+              >
+                <span
+                  class="chip _7ahQImyV4dj0EpcNOjnwA false false"
+                >
+                  Sci-Fi
+                  <i
+                    class="icon_cancel _1ruIhoPvyfSHg9LQB0CI6p _3crOX-etLxsZ8OgjhYCvt7"
+                  />
+                </span>
+                <input
+                  autocomplete="off"
+                  class="searchBox"
+                  id="search_input"
+                  placeholder="Select"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
+              >
+                <ul
+                  class="optionContainer"
+                >
+                  <li
+                    class="
+              lhyQmCtWOINviMz0WG_gr highlight 
+              false 
+              false option
+            "
+                  >
+                    Action
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Adventure
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Animation
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Comedy
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Crime
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Drama
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Fantasy
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Mystery
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Romance
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Science Fiction
+                  </li>
+                  <li
+                    class="
+               
+              false 
+              false option
+            "
+                  >
+                    Thriller
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </label>
+          <label
+            aria-labelledby="overview"
+          >
+            <span>
+              OVERVIEW
+            </span>
+            <input
+              class="container__input"
+              name="overview"
+              placeholder="Movie Overview"
+              value=""
+            />
+          </label>
+          <label
+            aria-labelledby="runtime"
+          >
+            <span>
+              RUNTIME
+            </span>
+            <input
+              class="container__input"
+              min="0"
+              name="runtime"
+              placeholder="Movie Runtime"
+              type="number"
+              value="120"
+            />
+          </label>
+          <div
+            class="container buttons"
+          >
+            <button
+              class="container buttons__reset"
+              title="reset"
+            >
+              RESET
+            </button>
+            <button
+              class="container buttons__submit"
+              title="submit"
+              type="submit"
+            >
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,21 @@
+.footer {
+    &__logo {
+        margin: 0;
+        &--left {
+            font-weight: bold;
+        }
+        &--right {
+            font-weight: lighter;
+        }
+    }
+
+    height: 3rem;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #F65261;
+    background: #555555;
+}

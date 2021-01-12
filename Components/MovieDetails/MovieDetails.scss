@@ -1,0 +1,146 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    width: 100%;
+    color: #ffffff;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(35, 35, 35, 0.9),
+            rgba(35, 35, 35, 0.9)
+        ),
+        url("https://blackgirlnerds.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-11-at-11.01.10-AM.png");
+
+    &__top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            font-size: 20px;
+            color: #f65261;
+            padding-left: 3rem;
+
+            &--left {
+                font-weight: bold;
+            }
+            &--right {
+                font-weight: lighter;
+            }
+        }
+
+        .btn--search {
+            font-weight: bold;
+            border-radius: 3px;
+            height: 2rem;
+            color: #f65261;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            right: 3rem;
+            padding: 0 1rem;
+            background: url("../../Assets/Images/searching.svg") 50% 50%
+                no-repeat;
+            background-size: 16px 17px;
+        }
+    }
+}
+
+.moviedetails {
+    height: 13.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__poster {
+        padding: 1rem;
+        margin-right: 1rem;
+        height: 12rem;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+
+        @media (max-width: 815px) {
+            width: 21.5rem;
+        }
+
+        @media (max-width: 530px) {
+            width: 15rem;
+        }
+
+        @media (max-width: 420px) {
+            width: 10rem;
+        }
+
+        .top {
+            display: flex;
+            flex-direction: row;
+
+            @media (max-width: 530px) {
+                font-size: 12px;
+            }
+
+            &__title {
+                margin: 0;
+                width: fit-content;
+                padding-right: 1rem;
+                font-weight: lighter;
+            }
+
+            &__rating {
+                color: green;
+                text-align: center;
+                line-height: 30px;
+                height: 2rem;
+                width: 2rem;
+                border: 1px solid grey;
+                border-radius: 20px;
+            }
+        }
+
+        .genre {
+            font-weight: lighter;
+        }
+
+        .center {
+            display: flex;
+            flex-direction: row;
+            color: #f65261;
+            padding: 0.5rem 0;
+
+            @media (max-width: 530px) {
+                font-size: 12px;
+            }
+
+            &__year {
+                padding-right: 1rem;
+            }
+
+            &__year,
+            &__runtime {
+                width: fit-content;
+            }
+        }
+
+        .bottom {
+            &__overview {
+                font-weight: lighter;
+                font-size: 14px;
+                margin: 0;
+
+                @media (max-width: 815px) {
+                    font-size: 12px;
+                }
+
+                @media (max-width: 530px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}

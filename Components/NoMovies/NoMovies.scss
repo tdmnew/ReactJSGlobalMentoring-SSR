@@ -1,0 +1,12 @@
+.no-movies {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        color: #fff;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+}

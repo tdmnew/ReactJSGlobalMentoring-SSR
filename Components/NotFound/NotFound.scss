@@ -1,0 +1,93 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+
+    .heading {
+        display: flex;
+        align-items: center;
+        height: 5vh;
+        width: 100%;
+        .logo {
+            align-self: flex-start;
+            font-size: 20px;
+            color: #f65261;
+            width: auto;
+            padding-left: 2rem;
+
+            &--left {
+                font-weight: bold;
+            }
+            &--right {
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .body {
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+        &__text {
+            h4 {
+                -moz-text-fill-color: #fff;
+                -webkit-text-fill-color: #fff;
+                -moz-text-stroke-color: #f65261;
+                -webkit-text-stroke-color: #f65261;
+                -moz-text-stroke-width: 3px;
+                -webkit-text-stroke-width: 3px;
+            }
+            &--top {
+                position: relative;
+                left: 5px;
+                width: 20rem;
+                font-size: 1.5rem;
+                font-weight: lighter;
+                letter-spacing: 5px;
+            }
+
+            &--bottom {
+                width: 20rem;
+                text-align: center;
+                margin: 1rem 0;
+                display: block;
+                font-size: 10rem;
+                animation: glitch 1s infinite;
+            }
+        }
+
+        &__btn {
+            height: 2rem;
+            width: 10rem;
+            font-weight: lighter;
+            text-decoration: none;
+            line-height: 27px;
+            border-radius: 3px;
+            color: #f65261;
+            border: 1px solid #f65261;
+            background: none;
+            cursor: pointer;
+            position: relative;
+            padding: 0 1rem;
+            margin: 1rem 0;
+        }
+    }
+
+    @keyframes glitch {
+        2%,
+        64% {
+            transform: translate(2px, 0) skew(0deg);
+        }
+        4%,
+        60% {
+            transform: translate(-2px, 0) skew(0deg);
+        }
+        62% {
+            transform: translate(0, 0) skew(5deg);
+        }
+    }
+}

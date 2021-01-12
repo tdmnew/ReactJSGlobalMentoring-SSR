@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movie Card Renders with default props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <a
+        class="link"
+        href="/films/1"
+      >
+        <div
+          class="moviecard"
+        >
+          <div
+            class="moviecard poster"
+          >
+            <img
+              alt="Blade Runner poster"
+              class="moviecard poster__img"
+              src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/BR-titled.jpg"
+            />
+            <button
+              class="moviecard poster__btn"
+              style="display: inherit;"
+              title="menu"
+            >
+              ⋮
+            </button>
+            <div
+              class="moviecard poster menu"
+              style="display: none;"
+            >
+              <button
+                class="moviecard poster menu__close"
+                value="close"
+              >
+                X
+              </button>
+              <button
+                class="moviecard poster menu__edit"
+                title="edit"
+                value="edit"
+              >
+                Edit
+              </button>
+              <button
+                class="moviecard poster menu__delete"
+                title="delete"
+                value="delete"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <div
+            class="moviecard details"
+          >
+            <div
+              class="moviecard details__top"
+            >
+              <h3
+                class="moviecard details__top--title"
+              >
+                Blade Runner
+              </h3>
+              <span
+                class="moviecard details__top--year"
+              >
+                1982
+              </span>
+            </div>
+            <div
+              class="moviecard details__bottom"
+            >
+              <span
+                class="moviecard details__bottom--genre"
+              >
+                Sci-Fi
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>,
+  "container": <div>
+    <a
+      class="link"
+      href="/films/1"
+    >
+      <div
+        class="moviecard"
+      >
+        <div
+          class="moviecard poster"
+        >
+          <img
+            alt="Blade Runner poster"
+            class="moviecard poster__img"
+            src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/BR-titled.jpg"
+          />
+          <button
+            class="moviecard poster__btn"
+            style="display: inherit;"
+            title="menu"
+          >
+            ⋮
+          </button>
+          <div
+            class="moviecard poster menu"
+            style="display: none;"
+          >
+            <button
+              class="moviecard poster menu__close"
+              value="close"
+            >
+              X
+            </button>
+            <button
+              class="moviecard poster menu__edit"
+              title="edit"
+              value="edit"
+            >
+              Edit
+            </button>
+            <button
+              class="moviecard poster menu__delete"
+              title="delete"
+              value="delete"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+        <div
+          class="moviecard details"
+        >
+          <div
+            class="moviecard details__top"
+          >
+            <h3
+              class="moviecard details__top--title"
+            >
+              Blade Runner
+            </h3>
+            <span
+              class="moviecard details__top--year"
+            >
+              1982
+            </span>
+          </div>
+          <div
+            class="moviecard details__bottom"
+          >
+            <span
+              class="moviecard details__bottom--genre"
+            >
+              Sci-Fi
+            </span>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
