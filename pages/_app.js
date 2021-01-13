@@ -1,25 +1,24 @@
 import Head from "next/head";
-import { Provider } from "react-redux";
 
-import { wrapper } from "../Redux";
+import { wrapper } from "../redux";
 
 //Styles
 import "./App.scss";
-import "../Components/Header/Header.scss";
-import "../Components/Nav/Nav.scss";
-import "../Components/Footer/Footer.scss";
-import "../Components/MovieCard/MovieCard.scss";
-import "../Components/MovieDetails/MovieDetails";
-import "../Components/MovieList/MovieList.scss";
-import "../Components/NoMovies/NoMovies.scss";
-import "../Components/NotFound/NotFound.scss";
-import "../Components/MovieDetails/MovieDetails.scss";
-import "../Components/Modals/MessageModal.scss";
-import "../Components/Modals/FormModal.scss";
+import "../components/Header/Header.scss";
+import "../components/Nav/Nav.scss";
+import "../components/Footer/Footer.scss";
+import "../components/MovieCard/MovieCard.scss";
+import "../components/MovieDetails/MovieDetails";
+import "../components/MovieList/MovieList.scss";
+import "../components/NoMovies/NoMovies.scss";
+import "../components/NotFound/NotFound.scss";
+import "../components/MovieDetails/MovieDetails.scss";
+import "../components/Modals/MessageModal.scss";
+import "../components/Modals/FormModal.scss";
 
 //Modals
-import Modal from "../Components/Modals/RootModal";
-import { ModalContext } from "../Context/ModalContext.js";
+import Modal from "../components/Modals/RootModal";
+import { ModalContext } from "../context/ModalContext.js";
 
 function MyApp({ Component, pageProps }) {
     return (

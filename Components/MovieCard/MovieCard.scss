@@ -28,8 +28,8 @@
             background: #232323;
             font-size: 20px;
             top: 1.75rem;
-            right: .75rem;
-            padding: .2rem .7rem;
+            right: 0.75rem;
+            padding: 0.2rem 0.7rem;
             width: auto;
 
             &:focus {
@@ -41,27 +41,30 @@
             display: none;
             position: absolute;
             border-radius: 5px;
-            right: .75rem;
+            right: 0.75rem;
             top: 1.9rem;
             height: 5rem;
             width: 8rem;
-            background: #232323; 
+            background: #232323;
 
             &__close {
                 text-align: center;
                 left: 6.4rem;
-                top: .25rem;
+                top: 0.25rem;
                 width: 1.25rem;
                 height: 1.25rem;
             }
 
-            &__delete, &__edit {
+            &__delete,
+            &__edit {
                 width: auto;
-                padding: .25rem;
-                margin: .1rem .25rem;
+                padding: 0.25rem;
+                margin: 0.1rem 0.25rem;
             }
 
-            &__edit, &__delete, &__close {
+            &__edit,
+            &__delete,
+            &__close {
                 cursor: pointer;
                 font-weight: lighter;
                 color: white;
@@ -69,7 +72,8 @@
                 border: none;
             }
 
-            &__edit:hover, &__delete:hover {
+            &__edit:hover,
+            &__delete:hover {
                 background: #f65261;
             }
         }
@@ -108,7 +112,7 @@
                 font-size: 10px;
                 align-self: flex-start;
                 flex-wrap: wrap;
-                padding: .5rem 0;
+                padding: 0.5rem 0;
             }
         }
     }

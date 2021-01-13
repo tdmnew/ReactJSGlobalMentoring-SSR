@@ -2,8 +2,8 @@ import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import { createWrapper } from "next-redux-wrapper";
 
-import rootSaga from "./Sagas";
-import movies from "./Slices/movies.js";
+import rootSaga from "./sagas";
+import movies from "./slices/movies.js";
 
 const MakeStore = (initialState = {movies: [], selectedMovie: {}}, options) => {
 

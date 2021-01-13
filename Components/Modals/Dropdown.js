@@ -3,11 +3,15 @@ import React from "react";
 export default function Dropdown({ options, checked, handleClick }) {
     const [clicked, setClicked] = React.useState(false);
 
+    const toggleClick = () => {
+        setClicked(!clicked);
+    };
+
     return (
         <>
             <textarea
                 className="container dropdown-btn"
-                onClick={() => setClicked(!clicked)}
+                onClick={toggleClick}
                 value={checked.join(", ")}
             ></textarea>
             <div

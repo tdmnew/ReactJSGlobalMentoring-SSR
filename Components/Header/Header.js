@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import { ModalUpdaterContext } from "../../Context/ModalContext.js";
+import { ModalUpdaterContext } from "../../context/ModalContext.js";
 import MovieDetails from "../MovieDetails/MovieDetails.js";
 import Search from "./Search.js";
 

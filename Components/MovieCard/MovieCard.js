@@ -2,7 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 import Link from "next/link";
 
-import { ModalUpdaterContext } from "../../Context/ModalContext.js";
+import { ModalUpdaterContext } from "../../context/ModalContext.js";
 
 export default function MovieCard({ movie }) {
     const [menuToggled, setMenuToggled] = React.useState(false);

@@ -2,13 +2,13 @@ import React from "react";
 import { useFormik } from "formik";
 import { useDispatch } from "react-redux";
 
-import { ModalStateContext, ModalUpdaterContext } from "../../Context/ModalContext";
+import { ModalStateContext, ModalUpdaterContext } from "../../context/ModalContext";
 
 import AddMovie from "./AddMovie/AddMovie.js";
 import EditMovie from "./EditMovie/EditMovie.js";
 import DeleteMovie from "./DeleteMovie/DeleteMovie.js";
 
-import { sagaActions } from "../../Redux/Sagas/sagaActions.js";
+import { sagaActions } from "../../redux/sagas/sagaActions.js";
 
 export default function Modal() {
     const dispatch = useDispatch();

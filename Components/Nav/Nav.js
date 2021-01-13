@@ -2,8 +2,8 @@ import React from "react";
 
 //Redux
 import { useDispatch, useSelector } from "react-redux";
-import { sagaActions } from "../../Redux/Sagas/sagaActions";
-import { sortMovies } from "../../Redux/Slices/movies.js";
+import { sagaActions } from "../../redux/sagas/sagaActions";
+import { sortMovies } from "../../redux/slices/movies.js";
 
 export default function Nav() {
     const dispatch = useDispatch();

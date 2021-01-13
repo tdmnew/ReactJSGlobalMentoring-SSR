@@ -6,7 +6,7 @@ import ErrorBoundary from "../ErrorBoundary";
 
 //Modals
 import Modal from "../Modals/RootModal";
-import { ModalContext } from "../../Context/ModalContext.js";
+import { ModalContext } from "../../context/ModalContext.js";
 
 export default function Layout({ children }) {
     return (
