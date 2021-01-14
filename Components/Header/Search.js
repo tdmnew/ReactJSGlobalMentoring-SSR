@@ -16,7 +16,9 @@ export default function Search() {
     };
 
     const handleSearch = (e) => {
-        router.push(`/search/${term}`)
+        if(term !== '') {
+            router.push(`/search/${term}`)
+        }
     }
 
     return (
