@@ -1,4 +1,5 @@
 import React from "react";
+import { nanoid } from "nanoid";
 
 export default function Dropdown({ options, checked, handleClick }) {
     const [clicked, setClicked] = React.useState(false);
@@ -18,15 +19,14 @@ export default function Dropdown({ options, checked, handleClick }) {
                 className="container dropdown"
                 style={clicked ? { display: "inherit" } : { display: "none" }}
             >
-                {options.map((name, index) => (
-                    <label className="dropdown option" key={index}>
+                {options.map((name) => (
+                    <label className="dropdown option" key={nanoid()}>
                         <input
                             type="checkbox"
                             className="option__checkbox"
                             name={`${name}`}
                             value={`${name}`}
                             onChange={handleClick}
-                            defaultValue={checked.includes(name) ? true : false}
                             checked={checked.includes(name) ? true : false}
                         />
                         <span className="option__text">{name}</span>
