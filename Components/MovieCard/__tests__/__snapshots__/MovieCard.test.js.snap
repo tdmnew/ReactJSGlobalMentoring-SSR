@@ -5,90 +5,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <a
-        class="link"
-        href="/films/1"
-      >
-        <div
-          class="moviecard"
-        >
-          <div
-            class="moviecard poster"
-          >
-            <img
-              alt="Blade Runner poster"
-              class="moviecard poster__img"
-              src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/BR-titled.jpg"
-            />
-            <button
-              class="moviecard poster__btn"
-              style="display: inherit;"
-              title="menu"
-            >
-              ⋮
-            </button>
-            <div
-              class="moviecard poster menu"
-              style="display: none;"
-            >
-              <button
-                class="moviecard poster menu__close"
-                value="close"
-              >
-                X
-              </button>
-              <button
-                class="moviecard poster menu__edit"
-                title="edit"
-                value="edit"
-              >
-                Edit
-              </button>
-              <button
-                class="moviecard poster menu__delete"
-                title="delete"
-                value="delete"
-              >
-                Delete
-              </button>
-            </div>
-          </div>
-          <div
-            class="moviecard details"
-          >
-            <div
-              class="moviecard details__top"
-            >
-              <h3
-                class="moviecard details__top--title"
-              >
-                Blade Runner
-              </h3>
-              <span
-                class="moviecard details__top--year"
-              >
-                1982
-              </span>
-            </div>
-            <div
-              class="moviecard details__bottom"
-            >
-              <span
-                class="moviecard details__bottom--genre"
-              >
-                Sci-Fi
-              </span>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  </body>,
-  "container": <div>
-    <a
-      class="link"
-      href="/films/1"
-    >
       <div
         class="moviecard"
       >
@@ -161,7 +77,81 @@ Object {
           </div>
         </div>
       </div>
-    </a>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="moviecard"
+    >
+      <div
+        class="moviecard poster"
+      >
+        <img
+          alt="Blade Runner poster"
+          class="moviecard poster__img"
+          src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/BR-titled.jpg"
+        />
+        <button
+          class="moviecard poster__btn"
+          style="display: inherit;"
+          title="menu"
+        >
+          ⋮
+        </button>
+        <div
+          class="moviecard poster menu"
+          style="display: none;"
+        >
+          <button
+            class="moviecard poster menu__close"
+            value="close"
+          >
+            X
+          </button>
+          <button
+            class="moviecard poster menu__edit"
+            title="edit"
+            value="edit"
+          >
+            Edit
+          </button>
+          <button
+            class="moviecard poster menu__delete"
+            title="delete"
+            value="delete"
+          >
+            Delete
+          </button>
+        </div>
+      </div>
+      <div
+        class="moviecard details"
+      >
+        <div
+          class="moviecard details__top"
+        >
+          <h3
+            class="moviecard details__top--title"
+          >
+            Blade Runner
+          </h3>
+          <span
+            class="moviecard details__top--year"
+          >
+            1982
+          </span>
+        </div>
+        <div
+          class="moviecard details__bottom"
+        >
+          <span
+            class="moviecard details__bottom--genre"
+          >
+            Sci-Fi
+          </span>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

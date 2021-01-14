@@ -1,16 +1,23 @@
 import React from "react";
 
-import { MemoryRouter } from "react-router-dom";
 import { render, screen, waitFor, cleanup } from "@testing-library/react";
 import { Provider } from "react-redux";
 import userEvent from "@testing-library/user-event";
+import configureStore from "redux-mock-store";
 
 import MovieCard from "../MovieCard.js";
 import { ModalStateContext } from "../../../Context/ModalContext.js";
-import store from "../../../Redux/index.js";
 
 describe("Movie Card", () => {
-    afterEach(cleanup)
+    afterEach(cleanup);
+
+    const initialState = {
+        movies: [],
+        selectedMovie: {}
+    }
+
+    const mockStore = configureStore();
+    const store = mockStore(initialState);
 
     const modalOptions = {
         isOpen: false,
@@ -35,11 +42,9 @@ describe("Movie Card", () => {
     it("Renders with default props", () => {
         const tree = render(
             <Provider store={store}>
-                <MemoryRouter>
-                    <ModalStateContext.Provider value={modalOptions}>
-                        <MovieCard movie={movie} />
-                    </ModalStateContext.Provider>
-                </MemoryRouter>
+                <ModalStateContext.Provider value={modalOptions}>
+                    <MovieCard movie={movie} />
+                </ModalStateContext.Provider>
             </Provider>
         );
 
@@ -49,11 +54,9 @@ describe("Movie Card", () => {
     it("Accepts clicks to menu button", async () => {
         const tree = render(
             <Provider store={store}>
-                <MemoryRouter>
-                    <ModalStateContext.Provider value={modalOptions}>
-                        <MovieCard movie={movie} />
-                    </ModalStateContext.Provider>
-                </MemoryRouter>
+                <ModalStateContext.Provider value={modalOptions}>
+                    <MovieCard movie={movie} />
+                </ModalStateContext.Provider>
             </Provider>
         );
 

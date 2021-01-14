@@ -1,0 +1,12 @@
+.logo {
+    font-size: 20px;
+    color: #f65261;
+    padding-left: 3rem;
+
+    &--left {
+        font-weight: bold;
+    }
+    &--right {
+        font-weight: lighter;
+    }
+}

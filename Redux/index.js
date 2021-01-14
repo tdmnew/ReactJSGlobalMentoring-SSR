@@ -5,21 +5,36 @@ import { createWrapper } from "next-redux-wrapper";
 import rootSaga from "./sagas";
 import movies from "./slices/movies.js";
 
-const MakeStore = (initialState = {movies: [], selectedMovie: {}}, options) => {
-
+const MakeStore = (
+    initialState = { movies: [], selectedMovie: {} },
+    options
+) => {
     const sagaMiddleware = createSagaMiddleware();
-    const middleware = [...getDefaultMiddleware({ thunk: false }), sagaMiddleware];
+    const middleware = [
+        ...getDefaultMiddleware({ thunk: false }),
+        sagaMiddleware,
+    ];
 
     const store = configureStore({
         reducer: movies.reducer,
-        middleware
+        middleware,
     });
 
     store.sagaTask = sagaMiddleware.run(rootSaga);
 
     return store;
-}
+};
 
-//export default store;
+const sagaMiddleware = createSagaMiddleware();
+const middleware = [...getDefaultMiddleware({ thunk: false }), sagaMiddleware];
 
-export const wrapper = createWrapper(MakeStore, {debug: true}) 
+const store = configureStore({
+    reducer: movies.reducer,
+    middleware,
+});
+
+store.sagaTask = sagaMiddleware.run(rootSaga);
+
+export default store;
+
+export const wrapper = createWrapper(MakeStore, { debug: true });

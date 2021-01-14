@@ -12,21 +12,21 @@ Object {
           class="header__top"
         >
           <h1
-            class="header__top logo"
+            class="logo"
           >
             <span
-              class="header__top logo--left"
+              class="logo--left"
             >
               netflix
             </span>
             <span
-              class="header__top logo--right"
+              class="logo--right"
             >
               roulette
             </span>
           </h1>
           <button
-            class="header__top btn"
+            class="button"
           >
             + ADD MOVIE
           </button>
@@ -65,21 +65,21 @@ Object {
         class="header__top"
       >
         <h1
-          class="header__top logo"
+          class="logo"
         >
           <span
-            class="header__top logo--left"
+            class="logo--left"
           >
             netflix
           </span>
           <span
-            class="header__top logo--right"
+            class="logo--right"
           >
             roulette
           </span>
         </h1>
         <button
-          class="header__top btn"
+          class="button"
         >
           + ADD MOVIE
         </button>

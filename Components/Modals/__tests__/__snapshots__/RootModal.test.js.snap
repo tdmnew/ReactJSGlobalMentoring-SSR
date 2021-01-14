@@ -70,129 +70,178 @@ Object {
               <span>
                 GENRE
               </span>
+              <textarea
+                class="container dropdown-btn"
+              />
               <div
-                class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
-                id="multiselectContainerReact"
+                class="container dropdown"
+                style="display: none;"
               >
-                <div
-                  class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+                <label
+                  class="dropdown option"
                 >
                   <input
-                    autocomplete="off"
-                    class="searchBox"
-                    id="search_input"
-                    placeholder="Select"
-                    type="text"
-                    value=""
+                    class="option__checkbox"
+                    name="Action"
+                    type="checkbox"
+                    value="Action"
                   />
-                </div>
-                <div
-                  class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
-                >
-                  <ul
-                    class="optionContainer"
+                  <span
+                    class="option__text"
                   >
-                    <li
-                      class="
-              lhyQmCtWOINviMz0WG_gr highlight 
-              false 
-              false option
-            "
-                    >
-                      Action
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Adventure
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Animation
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Comedy
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Crime
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Drama
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Fantasy
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Mystery
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Romance
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Science Fiction
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Thriller
-                    </li>
-                  </ul>
-                </div>
+                    Action
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Adventure"
+                    type="checkbox"
+                    value="Adventure"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Adventure
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Animation"
+                    type="checkbox"
+                    value="Animation"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Animation
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Comedy"
+                    type="checkbox"
+                    value="Comedy"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Comedy
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Crime"
+                    type="checkbox"
+                    value="Crime"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Crime
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Drama"
+                    type="checkbox"
+                    value="Drama"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Drama
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Fantasy"
+                    type="checkbox"
+                    value="Fantasy"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Fantasy
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Mystery"
+                    type="checkbox"
+                    value="Mystery"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Mystery
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Romance"
+                    type="checkbox"
+                    value="Romance"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Romance
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Science Fiction"
+                    type="checkbox"
+                    value="Science Fiction"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Science Fiction
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Thriller"
+                    type="checkbox"
+                    value="Thriller"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Thriller
+                  </span>
+                </label>
               </div>
             </label>
             <label
@@ -313,129 +362,178 @@ Object {
             <span>
               GENRE
             </span>
+            <textarea
+              class="container dropdown-btn"
+            />
             <div
-              class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
-              id="multiselectContainerReact"
+              class="container dropdown"
+              style="display: none;"
             >
-              <div
-                class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+              <label
+                class="dropdown option"
               >
                 <input
-                  autocomplete="off"
-                  class="searchBox"
-                  id="search_input"
-                  placeholder="Select"
-                  type="text"
-                  value=""
+                  class="option__checkbox"
+                  name="Action"
+                  type="checkbox"
+                  value="Action"
                 />
-              </div>
-              <div
-                class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
-              >
-                <ul
-                  class="optionContainer"
+                <span
+                  class="option__text"
                 >
-                  <li
-                    class="
-              lhyQmCtWOINviMz0WG_gr highlight 
-              false 
-              false option
-            "
-                  >
-                    Action
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Adventure
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Animation
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Comedy
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Crime
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Drama
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Fantasy
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Mystery
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Romance
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Science Fiction
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Thriller
-                  </li>
-                </ul>
-              </div>
+                  Action
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Adventure"
+                  type="checkbox"
+                  value="Adventure"
+                />
+                <span
+                  class="option__text"
+                >
+                  Adventure
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Animation"
+                  type="checkbox"
+                  value="Animation"
+                />
+                <span
+                  class="option__text"
+                >
+                  Animation
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Comedy"
+                  type="checkbox"
+                  value="Comedy"
+                />
+                <span
+                  class="option__text"
+                >
+                  Comedy
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Crime"
+                  type="checkbox"
+                  value="Crime"
+                />
+                <span
+                  class="option__text"
+                >
+                  Crime
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Drama"
+                  type="checkbox"
+                  value="Drama"
+                />
+                <span
+                  class="option__text"
+                >
+                  Drama
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Fantasy"
+                  type="checkbox"
+                  value="Fantasy"
+                />
+                <span
+                  class="option__text"
+                >
+                  Fantasy
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Mystery"
+                  type="checkbox"
+                  value="Mystery"
+                />
+                <span
+                  class="option__text"
+                >
+                  Mystery
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Romance"
+                  type="checkbox"
+                  value="Romance"
+                />
+                <span
+                  class="option__text"
+                >
+                  Romance
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Science Fiction"
+                  type="checkbox"
+                  value="Science Fiction"
+                />
+                <span
+                  class="option__text"
+                >
+                  Science Fiction
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Thriller"
+                  type="checkbox"
+                  value="Thriller"
+                />
+                <span
+                  class="option__text"
+                >
+                  Thriller
+                </span>
+              </label>
             </div>
           </label>
           <label
@@ -749,137 +847,180 @@ Object {
               <span>
                 GENRE
               </span>
-              <div
-                class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
-                id="multiselectContainerReact"
+              <textarea
+                class="container dropdown-btn"
               >
-                <div
-                  class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+                Sci-Fi
+              </textarea>
+              <div
+                class="container dropdown"
+                style="display: none;"
+              >
+                <label
+                  class="dropdown option"
                 >
-                  <span
-                    class="chip _7ahQImyV4dj0EpcNOjnwA false false"
-                  >
-                    Sci-Fi
-                    <i
-                      class="icon_cancel _1ruIhoPvyfSHg9LQB0CI6p _3crOX-etLxsZ8OgjhYCvt7"
-                    />
-                  </span>
                   <input
-                    autocomplete="off"
-                    class="searchBox"
-                    id="search_input"
-                    placeholder="Select"
-                    type="text"
-                    value=""
+                    class="option__checkbox"
+                    name="Action"
+                    type="checkbox"
+                    value="Action"
                   />
-                </div>
-                <div
-                  class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
-                >
-                  <ul
-                    class="optionContainer"
+                  <span
+                    class="option__text"
                   >
-                    <li
-                      class="
-              lhyQmCtWOINviMz0WG_gr highlight 
-              false 
-              false option
-            "
-                    >
-                      Action
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Adventure
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Animation
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Comedy
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Crime
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Drama
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Fantasy
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Mystery
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Romance
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Science Fiction
-                    </li>
-                    <li
-                      class="
-               
-              false 
-              false option
-            "
-                    >
-                      Thriller
-                    </li>
-                  </ul>
-                </div>
+                    Action
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Adventure"
+                    type="checkbox"
+                    value="Adventure"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Adventure
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Animation"
+                    type="checkbox"
+                    value="Animation"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Animation
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Comedy"
+                    type="checkbox"
+                    value="Comedy"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Comedy
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Crime"
+                    type="checkbox"
+                    value="Crime"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Crime
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Drama"
+                    type="checkbox"
+                    value="Drama"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Drama
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Fantasy"
+                    type="checkbox"
+                    value="Fantasy"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Fantasy
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Mystery"
+                    type="checkbox"
+                    value="Mystery"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Mystery
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Romance"
+                    type="checkbox"
+                    value="Romance"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Romance
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Science Fiction"
+                    type="checkbox"
+                    value="Science Fiction"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Science Fiction
+                  </span>
+                </label>
+                <label
+                  class="dropdown option"
+                >
+                  <input
+                    class="option__checkbox"
+                    name="Thriller"
+                    type="checkbox"
+                    value="Thriller"
+                  />
+                  <span
+                    class="option__text"
+                  >
+                    Thriller
+                  </span>
+                </label>
               </div>
             </label>
             <label
@@ -1009,137 +1150,180 @@ Object {
             <span>
               GENRE
             </span>
-            <div
-              class="multiselect-container _3vt7_Mh4hRCFbp__dFqBCI "
-              id="multiselectContainerReact"
+            <textarea
+              class="container dropdown-btn"
             >
-              <div
-                class="search-wrapper _2iA8p44d0WZ-WqRBGcAuEV "
+              Sci-Fi
+            </textarea>
+            <div
+              class="container dropdown"
+              style="display: none;"
+            >
+              <label
+                class="dropdown option"
               >
-                <span
-                  class="chip _7ahQImyV4dj0EpcNOjnwA false false"
-                >
-                  Sci-Fi
-                  <i
-                    class="icon_cancel _1ruIhoPvyfSHg9LQB0CI6p _3crOX-etLxsZ8OgjhYCvt7"
-                  />
-                </span>
                 <input
-                  autocomplete="off"
-                  class="searchBox"
-                  id="search_input"
-                  placeholder="Select"
-                  type="text"
-                  value=""
+                  class="option__checkbox"
+                  name="Action"
+                  type="checkbox"
+                  value="Action"
                 />
-              </div>
-              <div
-                class="optionListContainer _3vLmCG3bB3CM2hhAiQX1tN Dv7FLAST-3bZceA5TIxEN"
-              >
-                <ul
-                  class="optionContainer"
+                <span
+                  class="option__text"
                 >
-                  <li
-                    class="
-              lhyQmCtWOINviMz0WG_gr highlight 
-              false 
-              false option
-            "
-                  >
-                    Action
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Adventure
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Animation
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Comedy
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Crime
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Drama
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Fantasy
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Mystery
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Romance
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Science Fiction
-                  </li>
-                  <li
-                    class="
-               
-              false 
-              false option
-            "
-                  >
-                    Thriller
-                  </li>
-                </ul>
-              </div>
+                  Action
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Adventure"
+                  type="checkbox"
+                  value="Adventure"
+                />
+                <span
+                  class="option__text"
+                >
+                  Adventure
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Animation"
+                  type="checkbox"
+                  value="Animation"
+                />
+                <span
+                  class="option__text"
+                >
+                  Animation
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Comedy"
+                  type="checkbox"
+                  value="Comedy"
+                />
+                <span
+                  class="option__text"
+                >
+                  Comedy
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Crime"
+                  type="checkbox"
+                  value="Crime"
+                />
+                <span
+                  class="option__text"
+                >
+                  Crime
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Drama"
+                  type="checkbox"
+                  value="Drama"
+                />
+                <span
+                  class="option__text"
+                >
+                  Drama
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Fantasy"
+                  type="checkbox"
+                  value="Fantasy"
+                />
+                <span
+                  class="option__text"
+                >
+                  Fantasy
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Mystery"
+                  type="checkbox"
+                  value="Mystery"
+                />
+                <span
+                  class="option__text"
+                >
+                  Mystery
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Romance"
+                  type="checkbox"
+                  value="Romance"
+                />
+                <span
+                  class="option__text"
+                >
+                  Romance
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Science Fiction"
+                  type="checkbox"
+                  value="Science Fiction"
+                />
+                <span
+                  class="option__text"
+                >
+                  Science Fiction
+                </span>
+              </label>
+              <label
+                class="dropdown option"
+              >
+                <input
+                  class="option__checkbox"
+                  name="Thriller"
+                  type="checkbox"
+                  value="Thriller"
+                />
+                <span
+                  class="option__text"
+                >
+                  Thriller
+                </span>
+              </label>
             </div>
           </label>
           <label
