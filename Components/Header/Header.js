@@ -43,9 +43,10 @@ export default function Header() {
                             onClick={toggleDetails}
                         ></button>
                     ) : (
-                        <Button onClick={toggleAddMovieModal}>
-                            + ADD MOVIE
-                        </Button>
+                        <Button
+                            onClick={toggleAddMovieModal}
+                            label="+ ADD MOVIE"
+                        />
                     )}
                 </div>
                 {isOpen ? <MovieDetails movie={movie} /> : <Search />}

@@ -1,24 +1,20 @@
-import React from 'react';
+import React from "react";
 import { action } from "@storybook/addon-actions";
+import { withKnobs, text, boolean } from "@storybook/addon-knobs";
 
-import Button from '../UI/Button';
+import Button from "../UI/Button";
 
 require("../../styles/UI/Button/Button.scss");
 
 export default {
-  title: 'Button',
-  component: Button,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+    title: "Button",
+    component: Button,
+    decorators: [withKnobs],
 };
 
-const Template = (args) => <Button {...args} />;
 
-export const Text = () => <Button onClick={action('clicked')}>Hello</Button>
-
-export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: 'Button',
-};
+export const Text = () => (
+    <Button disabled={boolean("Disabled", false)} onClick={action("clicked")}>
+        {text("Label", "Hello")}
+    </Button>
+);
