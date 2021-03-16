@@ -1,32 +1,28 @@
 {
-  "name": "task10",
+  "name": "ReactGlobalMentoringSSR",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"next dev\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
     "build": "next build",
-    "start": "concurrently \"next start\" \" cd ./MoviesAPI.ReactJS && npm start\" ",
-    "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "start": "concurrently \"next start\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
+    "test": "jest"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
     "axios": "^0.21.1",
     "formik": "^2.2.6",
-    "jsondiffpatch": "^0.4.1",
-    "multiselect-react-dropdown": "^1.6.3",
-    "nanoid": "^3.1.20",
     "next": "10.0.5",
     "next-redux-wrapper": "^6.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-image": "^4.0.3",
+    "react-loader-spinner": "^4.0.0",
     "react-redux": "^7.2.2",
     "react-simple-multi-select": "^1.1.0",
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
     "sass": "^1.32.2",
-    "shortid": "^2.2.16",
     "swr": "^0.4.0"
   },
   "devDependencies": {

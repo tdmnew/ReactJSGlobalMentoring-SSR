@@ -1,9 +1,9 @@
 import { END } from "redux-saga";
 
-import Header from "../../components/Header/Header.js";
-import MovieList from "../../components/MovieList/MovieList.js";
-import Nav from "../../components/Nav/Nav.js";
-import Footer from "../../components/Footer/Footer.js";
+import Header from "../../Components/MovieDetails/Header/Header.js";
+import MovieList from "../../Components/MovieList/MovieList.js";
+import Nav from "../../Components/Nav/Nav.js";
+import Footer from "../../Components/Footer/Footer.js";
 
 import { wrapper } from "../../redux/index.js";
 import { sagaActions } from "../../redux/sagas/sagaActions.js";

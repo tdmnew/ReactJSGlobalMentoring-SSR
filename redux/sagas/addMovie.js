@@ -1,37 +1,18 @@
-import axios from "axios";
-import { call, takeEvery, put } from "redux-saga/effects";
+import { call, takeEvery, put } from 'redux-saga/effects';
 
-import { addMovie } from "../slices/movies.js";
-import { sagaActions } from "../sagas/sagaActions";
-
-let API = async (payload) => {
-    let movie = payload.payload
-    delete movie.url
-
-    return axios({
-        method: "POST",
-        url: "http://localhost:4000/movies",
-        headers: {
-            "Access-Control-Allow-Origin": "*"
-        },
-        data: {
-            ...movie
-        }
-    })
-    .then((res) => {
-        return res.data;
-    })
-};
+import addMovieAPI from '../../Core/API/addMovieAPI';
+import { addMovie } from '../slices/movies.js';
+import { sagaActions as actions } from '../sagas/sagaActions.js';
 
 export function* addMovieSaga({ payload }) {
     try {
-        let movie = yield call(API, { payload });
+        const movie = yield call(addMovieAPI, { payload });
         yield put(addMovie(movie));
     } catch (e) {
-        yield put({ type: "FETCH_FAILED" });
+        yield put({ type: actions.ADD_MOVIE_FAILED });
     }
 }
 
 export function* watchAddMovie() {
-    yield takeEvery(sagaActions.ADD_MOVIE, addMovieSaga);
+    yield takeEvery(actions.ADD_MOVIE, addMovieSaga);
 }

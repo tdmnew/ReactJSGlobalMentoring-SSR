@@ -1,4 +1,14 @@
 .footer {
+    &__logo {
+        margin: 0;
+        &--left {
+            font-weight: bold;
+        }
+        &--right {
+            font-weight: lighter;
+        }
+    }
+
     height: 3rem;
     width: 100%;
     bottom: 0;

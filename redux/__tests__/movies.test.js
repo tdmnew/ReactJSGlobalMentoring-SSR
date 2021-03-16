@@ -3,7 +3,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 
-import movies from "../Slices/movies.js";
+import movies from "../slices/movies.js";
 
 describe("Redux movies slice testing", () => {
     const actions = {

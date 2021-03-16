@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import Header from "../components/Header/Header.js";
-import Footer from "../components/Footer/Footer.js";
-import Nav from "../components/Nav/Nav.js";
-import MovieList from "../components/MovieList/MovieList.js";
-import NoMovies from "../components/NoMovies/NoMovies.js";
+import Header from "../Components/MovieDetails/Header/Header";
+import Footer from "../Components/Footer/Footer.js";
+import Nav from "../Components/Nav/Nav.js";
+import MovieList from "../Components/MovieList/MovieList.js";
+import NoMovies from "../Components/NoMovies/NoMovies.js";
 
 export default function Home() {
     const [listActive, setListActive] = React.useState(false);

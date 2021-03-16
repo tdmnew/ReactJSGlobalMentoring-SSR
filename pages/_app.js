@@ -2,12 +2,12 @@ import Head from "next/head";
 
 import { wrapper } from "../redux";
 
+//Modals
+import Modal from "../Components/Modals/RootModal";
+import { ModalContext } from "../HOCs/Context/ModalContext";
+
 //Styles
 import "../styles/globals.scss";
-
-//Modals
-import Modal from "../components/Modals/RootModal";
-import { ModalContext } from "../context/ModalContext.js";
 
 function MyApp({ Component, pageProps }) {
     return (

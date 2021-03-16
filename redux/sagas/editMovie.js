@@ -1,37 +1,19 @@
-import axios from "axios";
-import { call, takeEvery, put } from "redux-saga/effects";
+import { call, takeEvery, put } from 'redux-saga/effects';
 
-import { editMovie } from "../slices/movies.js";
-import { sagaActions } from "../sagas/sagaActions";
-
-let API = async (payload) => {
-    let movie = payload.payload;
-    delete movie.url;
-
-    return axios({
-        method: "PUT",
-        url: "http://localhost:4000/movies",
-        headers: {
-            "Access-Control-Allow-Origin": "*",
-        },
-        data: {
-            ...movie,
-        },
-    }).then((res) => {
-        return res.data;
-    });
-};
+import editMovieAPI from '../../Core/API/editMovieAPI';
+import { editMovie } from '../slices/movies.js';
+import { sagaActions as actions } from '../sagas/sagaActions';
 
 export function* editMovieSaga({ payload }) {
     try {
         delete payload.url;
-        let movie = yield call(API, { payload });
+        const movie = yield call(editMovieAPI, { payload });
         yield put(editMovie(movie));
     } catch (e) {
-        yield put({ type: "FETCH_FAILED" });
+        yield put({ type: actions.EDIT_MOVIE_FAILED });
     }
 }
 
 export function* watchEditMovie() {
-    yield takeEvery(sagaActions.EDIT_MOVIE, editMovieSaga);
+    yield takeEvery(actions.EDIT_MOVIE, editMovieSaga);
 }

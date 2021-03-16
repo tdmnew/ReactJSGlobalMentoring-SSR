@@ -3,13 +3,13 @@ import React from "react";
 import { expectSaga } from "redux-saga-test-plan";
 import { call, put } from "redux-saga/effects";
 
-import { addMovieSaga } from "../Sagas/addMovie.js";
-import { editMovieSaga } from "../Sagas/editMovie.js";
-import { deleteMovieSaga } from "../Sagas/deleteMovie.js";
-import { fetchMoviesSaga } from "../Sagas/fetchMovies.js";
-import { filterMoviesSaga } from "../Sagas/filterMovies.js";
-import { getMovieSaga } from "../Sagas/getMovie.js";
-import { searchMoviesSaga } from "../Sagas/searchMovies.js";
+import { addMovieSaga } from "../sagas/addMovie.js";
+import { editMovieSaga } from "../sagas/editMovie.js";
+import { deleteMovieSaga } from "../sagas/deleteMovie.js";
+import { fetchMoviesSaga } from "../sagas/fetchMovies.js";
+import { filterMoviesSaga } from "../sagas/filterMovies.js";
+import { getMovieSaga } from "../sagas/getMovie.js";
+import { searchMoviesSaga } from "../sagas/searchMovies.js";
 
 import {
     getMovie,
@@ -19,7 +19,7 @@ import {
     addMovie,
     editMovie,
     deleteMovie,
-} from "../Slices/movies.js";
+} from "../slices/movies.js";
 
 // https://github.com/jfairbank/redux-saga-test-plan/issues/345
 describe("Testing Sagas", () => {
