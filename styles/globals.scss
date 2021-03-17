@@ -22,17 +22,13 @@ code {
     monospace;
 }
 
-@import "./Header/Header.scss";
-@import "./Nav/Nav.scss";
 @import "./Footer/Footer.scss";
-@import "./MovieCard/MovieCard.scss";
-@import "./MovieDetails/MovieDetails";
+@import "./Modals/FormModal.scss";
+@import "./Modals/MessageModal.scss";
+@import "./MovieDetails/Header/Header.scss";
+@import "./MovieDetails/MovieDetails.scss";
+@import "./MovieList/MovieCard/MovieCard.scss";
 @import "./MovieList/MovieList.scss";
+@import "./Nav/Nav.scss";
 @import "./NoMovies/NoMovies.scss";
 @import "./NotFound/NotFound.scss";
-@import "./MovieDetails/MovieDetails.scss";
-@import "./Modals/MessageModal.scss";
-@import "./Modals/FormModal.scss";
-
-@import "./UI/Button/Button.scss";
-@import "./UI/Logo/Logo.scss";

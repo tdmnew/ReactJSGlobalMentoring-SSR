@@ -1,13 +1,13 @@
-import React from "react";
+)import React from "react";
 
 import { render, screen, cleanup, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import configureStore from "redux-mock-store";
 import { Provider } from "react-redux";
 
-import RootModal from "../RootModal.js";
+import RootModal from "../RootModal";
 
-import { ModalStateContext } from "../../../Context/ModalContext.js";
+import { ModalStateContext } from "../../../HOCs/Context/ModalContext";
 
 describe("Root Modal", () => {
     afterEach(cleanup);
@@ -222,4 +222,4 @@ describe("Root Modal", () => {
         );
         expect(tree).toMatchSnapshot();
     });
-});
+});;

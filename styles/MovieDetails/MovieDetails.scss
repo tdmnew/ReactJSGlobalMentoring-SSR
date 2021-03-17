@@ -17,6 +17,19 @@
         justify-content: space-between;
         align-items: center;
 
+        .logo {
+            font-size: 20px;
+            color: #f65261;
+            padding-left: 3rem;
+
+            &--left {
+                font-weight: bold;
+            }
+            &--right {
+                font-weight: lighter;
+            }
+        }
+
         .btn--search {
             font-weight: bold;
             border-radius: 3px;
@@ -24,6 +37,8 @@
             color: #f65261;
             border: none;
             cursor: pointer;
+            position: relative;
+            right: 3rem;
             padding: 0 1rem;
             background: url("../../Assets/Images/searching.svg") 50% 50%
                 no-repeat;
@@ -73,6 +88,7 @@
             &__title {
                 margin: 0;
                 width: fit-content;
+                width: -moz-fit-content;
                 padding-right: 1rem;
                 font-weight: lighter;
             }
@@ -109,6 +125,7 @@
             &__year,
             &__runtime {
                 width: fit-content;
+                width: -moz-fit-content;
             }
         }
 

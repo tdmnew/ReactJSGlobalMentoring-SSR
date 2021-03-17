@@ -1,4 +1,6 @@
-import React from "react";
+import React from 'react';
+
+import { TRANSLATIONS } from '../../../Core/I18N';
 
 export default function DeleteMovie({ close, submit }) {
     return (
@@ -8,14 +10,14 @@ export default function DeleteMovie({ close, submit }) {
                     X
                 </button>
                 <form onSubmit={submit}>
-                    <h2>DELETE MOVIE</h2>
-                    <p>Are you sure you want to delete this movie?</p>
+                    <h2>{TRANSLATIONS.EN.DELETE_MOVIE}</h2>
+                    <p>{TRANSLATIONS.EN.DELETE_MOVIE_CONFIRM}</p>
                     <div className="container buttons">
                         <button
                             className="container buttons__confirm"
                             type="submit"
                         >
-                            CONFIRM
+                            {TRANSLATIONS.EN.CONFIRM}
                         </button>
                     </div>
                 </form>

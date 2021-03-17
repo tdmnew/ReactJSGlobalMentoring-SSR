@@ -5,6 +5,65 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <i18nextprovider
+        i18n="[object Object]"
+      >
+        <div
+          class="nav"
+        >
+          <ul
+            class="nav__links"
+          >
+            <li>
+              <a
+                class="link"
+                href="#ALL"
+              >
+                ALL
+              </a>
+            </li>
+          </ul>
+          <div
+            class="dropdown"
+          >
+            <span
+              class="dropdown__heading"
+            >
+              SORT BY
+            </span>
+            <select
+              class="dropdown__options"
+            >
+              <option
+                value="release_date"
+              >
+                RELEASE DATE
+              </option>
+              <option
+                value="title"
+              >
+                TITLE
+              </option>
+              <option
+                value="genres"
+              >
+                GENRE
+              </option>
+              <option
+                value="vote_average"
+              >
+                RATING
+              </option>
+            </select>
+          </div>
+        </div>
+      </i18nextprovider>
+    </div>
+  </body>,
+  "container": <div>
+    <i18nextprovider
+      i18n="[object Object]"
+    >
       <div
         class="nav"
       >
@@ -13,7 +72,8 @@ Object {
         >
           <li>
             <a
-              href="#All"
+              class="link"
+              href="#ALL"
             >
               ALL
             </a>
@@ -53,57 +113,7 @@ Object {
           </select>
         </div>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="nav"
-    >
-      <ul
-        class="nav__links"
-      >
-        <li>
-          <a
-            href="#All"
-          >
-            ALL
-          </a>
-        </li>
-      </ul>
-      <div
-        class="dropdown"
-      >
-        <span
-          class="dropdown__heading"
-        >
-          SORT BY
-        </span>
-        <select
-          class="dropdown__options"
-        >
-          <option
-            value="release_date"
-          >
-            RELEASE DATE
-          </option>
-          <option
-            value="title"
-          >
-            TITLE
-          </option>
-          <option
-            value="genres"
-          >
-            GENRE
-          </option>
-          <option
-            value="vote_average"
-          >
-            RATING
-          </option>
-        </select>
-      </div>
-    </div>
+    </i18nextprovider>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

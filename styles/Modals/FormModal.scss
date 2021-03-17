@@ -12,7 +12,6 @@
     .container {
         display: flex;
         flex-direction: column;
-        overflow: hidden;
         align-items: center;
         justify-content: center;
         padding: 1rem;
@@ -36,75 +35,6 @@
             }
         }
 
-        .dropdown-btn {
-            &:focus {
-                caret-color: transparent;
-                outline: none;
-            }
-            cursor: pointer;
-            font-family: Arial;
-            font-size: 10px;
-            color: #f65261;
-            border-radius: 5px;
-            height: 0.5rem;
-            width: 25rem;
-            background: url("../../Assets/Images/arrow.svg") 96.5% 50% no-repeat
-                rgba(85, 85, 85, 0.5);
-            background-size: 16px 17px;
-            line-height: 9px;
-            resize: none;
-
-            @media (max-width: 540px) {
-                width: 16rem;
-            }
-        }
-
-        .dropdown {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            padding: 5px 16px;
-            border: 1px solid grey;
-            margin-top: 75px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 25rem;
-            height: fit-content;
-            border-radius: 5px;
-
-            .option {
-                &:hover {
-                    cursor: pointer;
-                }
-                position: relative;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                height: 0.05rem;
-                border: none;
-                margin: 0;
-                overflow: hidden;
-
-                padding: 0.75rem 0;
-
-                &__checkbox {
-                    height: 0.65rem;
-                    width: auto;
-                }
-
-                &__text {
-                    font-size: 12px;
-                    position: relative;
-                    top: 0.2rem;
-                    padding-left: 0.5rem;
-                }
-            }
-
-            @media (max-width: 540px) {
-                width: 16rem;
-            }
-        }
-
         label {
             display: flex;
             flex-direction: column;
@@ -119,9 +49,7 @@
         }
 
         .error {
-            height: 1rem;
-            width: 27rem;
-            padding: 0.2rem 0 0 0;
+            padding: 0;
             margin: 0;
             font-weight: bold;
             font-size: 12px;
@@ -164,6 +92,78 @@
             background: #232323;
         }
 
+        .dropdown-btn {
+            &:focus {
+                caret-color: transparent;
+                outline: none;
+            }
+            border: none;
+            cursor: pointer;
+            overflow: hidden;
+            font-family: Arial;
+            font-size: 10px;
+            color: #f65261;
+            border-radius: 5px;
+            height: 0.75rem;
+            width: 25rem;
+            background: url('../../Assets/Images/arrow.svg') 96.5% 50% no-repeat
+                rgba(85, 85, 85, 0.5);
+            background-size: 16px 17px;
+            line-height: 9px;
+            resize: none;
+
+            @media (max-width: 540px) {
+                width: 16rem;
+            }
+        }
+
+        .dropdown {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            padding: 5px 16px;
+            border: 1px solid grey;
+            margin-top: 75px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 24.85rem;
+            height: fit-content;
+            height: -moz-max-content;
+            border-radius: 5px;
+
+            .option {
+                &:hover {
+                    cursor: pointer;
+                }
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 0.05rem;
+                border: none;
+                margin: 0;
+                overflow: hidden;
+
+                padding: 0.75rem 0;
+
+                &__checkbox {
+                    height: 0.65rem;
+                    width: auto;
+                }
+
+                &__text {
+                    font-size: 12px;
+                    position: relative;
+                    top: 0.2rem;
+                    padding-left: 0.5rem;
+                }
+            }
+
+            @media (max-width: 540px) {
+                width: 16rem;
+            }
+        }
+
         &__input {
             background: rgba(85, 85, 85, 0.5);
 
@@ -178,8 +178,14 @@
             right: 0.5rem;
         }
 
+        &__select {
+            &:focus {
+                outline: none;
+            }
+        }
+
         &__date {
-            background: url("../../Assets/Images/calendar.svg") 96.5% 50%
+            background: url('../../Assets/Images/calendar.svg') 96.5% 50%
                 no-repeat rgba(85, 85, 85, 0.5);
             background-size: 16px 17px;
 
@@ -189,16 +195,14 @@
         }
 
         /* Remove Default Date Icon */
-        input[type="date"]::-webkit-inner-spin-button,
-        input[type="date"]::-webkit-calendar-picker-indicator {
+        input[type='date']::-webkit-inner-spin-button,
+        input[type='date']::-webkit-calendar-picker-indicator {
             opacity: 0;
             -webkit-appearance: none;
         }
 
         &__close-btn {
-            &:focus {
-                outline: none;
-            }
+            cursor: pointer;
             position: absolute;
             top: 1rem;
             right: 1rem;

@@ -1,0 +1,117 @@
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.moviecard {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 14rem;
+
+    .poster {
+        cursor: pointer;
+        position: relative;
+
+        &__img {
+            height: 20rem;
+            padding: 1.5rem 0;
+        }
+
+        &__btn {
+            position: absolute;
+            cursor: pointer;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            background: #232323;
+            font-size: 20px;
+            top: 1.75rem;
+            right: .75rem;
+            padding: .4rem .5rem;
+            width: auto;
+
+            &:focus {
+                outline: 0;
+            }
+        }
+
+        .menu {
+            display: none;
+            position: absolute;
+            border-radius: 5px;
+            right: .75rem;
+            top: 1.9rem;
+            height: 5.2rem;
+            width: 8rem;
+            background: #232323; 
+
+            &__close {
+                text-align: center;
+                left: 6.4rem;
+                top: .25rem;
+                margin-bottom: .25rem;
+                width: 1.25rem;
+                height: 1.25rem;
+            }
+
+            &__delete, &__edit {
+                width: auto;
+                padding: .25rem;
+                margin: .1rem .25rem;
+                text-align: left;
+            }
+
+            &__edit, &__delete, &__close {
+                cursor: pointer;
+                font-weight: lighter;
+                color: white;
+                background: #232323;
+                border: none;
+            }
+
+            &__edit:hover, &__delete:hover {
+                background: #f65261;
+            }
+        }
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+
+        &__top {
+            height: 1rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            &--title {
+                font-weight: lighter;
+                font-size: 15px;
+                line-height: 15px;
+            }
+
+            &--year {
+                border-radius: 2px;
+                font-size: 12px;
+                padding: 0 0.5rem;
+                border: 1px solid grey;
+                width: auto;
+            }
+        }
+
+        &__bottom {
+            height: 1rem;
+
+            &--genre {
+                font-size: 10px;
+                align-self: flex-start;
+                flex-wrap: wrap;
+                padding: .5rem 0;
+            }
+        }
+    }
+}

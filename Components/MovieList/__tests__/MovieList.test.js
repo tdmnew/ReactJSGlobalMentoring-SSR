@@ -1,11 +1,11 @@
 import React from "react";
-
 import { render } from "@testing-library/react";
 import { Provider } from "react-redux";
 import configureStore from "redux-mock-store";
 
+import { ModalStateContext } from "../../../HOCs/Context/ModalContext";
+
 import MovieList from "../MovieList.js";
-import { ModalStateContext } from "../../../context/ModalContext";
 
 describe("Movie List", () => {
     const initialState = {
@@ -32,4 +32,4 @@ describe("Movie List", () => {
 
         expect(tree).toMatchSnapshot();
     });
-});
+}););

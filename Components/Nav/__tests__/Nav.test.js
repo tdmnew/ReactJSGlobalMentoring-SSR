@@ -1,12 +1,12 @@
 import React from "react";
-
 import { getByDisplayValue, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { Provider } from "react-redux";
 import configureStore from "redux-mock-store";
 
+import { ModalStateContext } from "../../../HOCs/Context/ModalContext";
+
 import Nav from "../Nav.js";
-import { ModalStateContext } from "../../../Context/ModalContext.js";
 
 describe("Nav", () => {
     const initialState = {
@@ -38,4 +38,4 @@ describe("Nav", () => {
         expect(screen.getByText(/GENRE/i)).toBeInTheDocument();
         expect(screen.getByText(/RATING/i)).toBeInTheDocument();
     });
-});
+}););

@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    width: 100%;
+    color: #ffffff;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(35, 35, 35, 0.9),
+            rgba(35, 35, 35, 0.9)
+        ),
+        url('../../../Assets/Images/background.png');
+    background-attachment: fixed;
+
+    &__top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            font-size: 20px;
+            color: #f65261;
+            padding-left: 3rem;
+
+            &--left {
+                font-weight: bold;
+            }
+            &--right {
+                font-weight: lighter;
+            }
+        }
+
+        .btn {
+            font-weight: bold;
+            border-radius: 3px;
+            height: 2rem;
+            color: #f65261;
+            border: none;
+            background: rgba(85, 85, 85, 0.5);
+            cursor: pointer;
+            position: relative;
+            right: 3rem;
+            padding: 0 1rem;
+        }
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 10rem;
+
+        .title {
+            position: relative;
+            right: 12.5rem;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            font-weight: lighter;
+            font-size: 30px;
+            letter-spacing: 1.5px;
+
+            @media (max-width: 815px) {
+                right: inherit;
+            }
+        }
+
+        .search-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 2.25rem;
+
+            &__input {
+                border: none;
+                border-radius: 3px;
+                height: 2.5rem;
+                width: 30rem;
+                margin-right: 0.5rem;
+                padding: 0 0.5rem 0 0.5rem;
+                letter-spacing: 1px;
+                color: white;
+                background: rgba(85, 85, 85, 0.5);
+
+                &:focus {
+                    outline: none;
+                }
+
+                @media (max-width: 815px) {
+                    width: 20rem;
+                }
+
+                @media (max-width: 530px) {
+                    width: 12.5rem;
+                }
+            }
+
+            &__btn {
+                text-decoration: none;
+                height: 2.5rem;
+                width: 10rem;
+                color: #ffffff;
+                background: #f65261;
+                border-radius: 3px;
+                border: none;
+                cursor: pointer;
+
+                @media (max-width: 530px) {
+                    width: 7rem;
+                }
+            }
+        }
+    }
+}

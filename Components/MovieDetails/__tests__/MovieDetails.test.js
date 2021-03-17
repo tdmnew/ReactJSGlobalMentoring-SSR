@@ -4,8 +4,8 @@ import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import configureStore from "redux-mock-store";
 
-import MovieDetails from "../MovieDetails.js";
-import { ModalStateContext } from "../../../Context/ModalContext.js";
+import MovieDetails from "../MovieDetails";
+import { ModalStateContext } from "../../../HOCs/Context/ModalContext";
 
 describe("Movie Card", () => {
 
@@ -32,4 +32,4 @@ describe("Movie Card", () => {
 
         expect(tree).toMatchSnapshot();
     });
-});
+}););
