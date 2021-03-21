@@ -1,4 +1,4 @@
-)import React from "react";
+import React from "react";
 
 import { render, screen, cleanup, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
@@ -222,4 +222,4 @@ describe("Root Modal", () => {
         );
         expect(tree).toMatchSnapshot();
     });
-});;
+});

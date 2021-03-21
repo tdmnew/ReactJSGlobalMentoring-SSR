@@ -7,15 +7,15 @@ import ErrorBoundary from '../../Components/ErrorBoundary/ErrorBoundary.js';
 import Modal from '../../Components/Modals/RootModal.js';
 
 export default function Layout({ children }) {
-    return (
-        <>
-            <ModalContext>
-                <ErrorBoundary>
-                    {children}
-                    <Modal />
-                </ErrorBoundary>
-                <Footer />
-            </ModalContext>
-        </>
-    );
+  return (
+    <>
+      <ModalContext>
+        <ErrorBoundary>
+          {children}
+          <Modal />
+        </ErrorBoundary>
+        <Footer />
+      </ModalContext>
+    </>
+  );
 }

@@ -32,4 +32,4 @@ describe("Movie List", () => {
 
         expect(tree).toMatchSnapshot();
     });
-}););
+});

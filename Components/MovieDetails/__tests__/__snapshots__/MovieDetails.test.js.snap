@@ -93,24 +93,34 @@ Object {
           >
             <h2
               class="text top__title"
-            />
+            >
+              Fifty Shades Freed
+            </h2>
             <span
               class="text top__rating"
-            />
+            >
+              6.1
+            </span>
           </div>
           <span
             class="text genre"
-          />
+          >
+            Don't miss the climax
+          </span>
           <div
             class="text center"
           >
             <span
               class="text center__year"
-            />
+            >
+              2018
+            </span>
             <span
               class="text center__runtime"
             >
-               min
+              106
+               
+              min
             </span>
             <br />
           </div>
@@ -119,7 +129,9 @@ Object {
           >
             <p
               class="text bottom__overview"
-            />
+            >
+              Believing they have left behind shadowy figures from their past, newlyweds Christian and Ana fully embrace an inextricable connection and shared life of luxury. But just as she steps into her role as Mrs. Grey and he relaxes into an unfamiliar stability, new threats could jeopardize their happy ending before it even begins.
+            </p>
           </div>
         </div>
       </div>
@@ -214,24 +226,34 @@ Object {
         >
           <h2
             class="text top__title"
-          />
+          >
+            Fifty Shades Freed
+          </h2>
           <span
             class="text top__rating"
-          />
+          >
+            6.1
+          </span>
         </div>
         <span
           class="text genre"
-        />
+        >
+          Don't miss the climax
+        </span>
         <div
           class="text center"
         >
           <span
             class="text center__year"
-          />
+          >
+            2018
+          </span>
           <span
             class="text center__runtime"
           >
-             min
+            106
+             
+            min
           </span>
           <br />
         </div>
@@ -240,7 +262,9 @@ Object {
         >
           <p
             class="text bottom__overview"
-          />
+          >
+            Believing they have left behind shadowy figures from their past, newlyweds Christian and Ana fully embrace an inextricable connection and shared life of luxury. But just as she steps into her role as Mrs. Grey and he relaxes into an unfamiliar stability, new threats could jeopardize their happy ending before it even begins.
+          </p>
         </div>
       </div>
     </div>
