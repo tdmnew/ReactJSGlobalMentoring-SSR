@@ -1,12 +1,12 @@
 import { END } from 'redux-saga';
 
+import { wrapper } from '../../redux/index';
+import { sagaActions } from '../../redux/sagas/sagaActions.js';
+
 import Header from '../../Components/MovieDetails/Header/Header.js';
 import Nav from '../../Components/Nav/Nav.js';
 import Footer from '../../Components/Footer/Footer.js';
 import MovieList from '../../Components/MovieList/MovieList.js';
-
-import { wrapper } from '../../redux/index';
-import { sagaActions } from '../../redux/sagas/sagaActions.js';
 
 export default function Films() {
   return (
