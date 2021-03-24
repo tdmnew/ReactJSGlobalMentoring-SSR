@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
     "build": "next build",
-    "start": "concurrently \"next start\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
+    "start": "next start",
     "test": "jest",
     "lint": "eslint ./",
     "lint:fix": "eslint ./ --fix"
