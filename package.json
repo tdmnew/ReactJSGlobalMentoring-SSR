@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
     "build": "next build",
-    "start": "next start",
+    "heroku-postbuild": "npm run build",
+    "start": "next start -p $PORT",
     "test": "jest",
     "lint": "eslint ./",
     "lint:fix": "eslint ./ --fix"
