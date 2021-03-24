@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const baseURL = process.env.DEV_URI
+
 const api = axios.create({
-  baseURL: 'https://movies-api-react-mentoring.herokuapp.com',
+  baseURL,
   headers: { 'Access-Control-Allow-Origin': '*' },
 });
 
