@@ -1,36 +1,36 @@
-import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import createSagaMiddleware from "redux-saga";
-import { createWrapper } from "next-redux-wrapper";
+import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
+import createSagaMiddleware from 'redux-saga';
+import { createWrapper } from 'next-redux-wrapper';
 
-import rootSaga from "./sagas";
-import movies from "./slices/movies.js";
+import rootSaga from './sagas';
+import movies from './slices/movies.js';
 
 const MakeStore = (
-    initialState = { movies: [], selectedMovie: {} },
-    options
+  initialState = { movies: [], selectedMovie: {} },
+  options,
 ) => {
-    const sagaMiddleware = createSagaMiddleware();
-    const middleware = [
-        ...getDefaultMiddleware({ thunk: false }),
-        sagaMiddleware,
-    ];
+  const sagaMiddleware = createSagaMiddleware();
+  const middleware = [
+    ...getDefaultMiddleware({ thunk: false }),
+    sagaMiddleware,
+  ];
 
-    const store = configureStore({
-        reducer: movies.reducer,
-        middleware,
-    });
+  const store = configureStore({
+    reducer: movies.reducer,
+    middleware,
+  });
 
-    store.sagaTask = sagaMiddleware.run(rootSaga);
+  store.sagaTask = sagaMiddleware.run(rootSaga);
 
-    return store;
+  return store;
 };
 
 const sagaMiddleware = createSagaMiddleware();
 const middleware = [...getDefaultMiddleware({ thunk: false }), sagaMiddleware];
 
 const store = configureStore({
-    reducer: movies.reducer,
-    middleware,
+  reducer: movies.reducer,
+  middleware,
 });
 
 store.sagaTask = sagaMiddleware.run(rootSaga);

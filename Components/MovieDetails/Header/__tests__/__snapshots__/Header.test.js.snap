@@ -17,17 +17,20 @@ Object {
             <span
               class="header__top logo--left"
             >
-              APP_NAME
+              netflix
             </span>
             <span
               class="header__top logo--right"
-            />
+            >
+              roulette
+            </span>
           </h1>
           <button
             class="header__top btn"
           >
-            ADD_MOVIE
-             +
+            ADD MOVIE
+             
+            +
           </button>
         </div>
         <div
@@ -36,20 +39,20 @@ Object {
           <h2
             class="search title"
           >
-            SEARCH_TITLE
+            FIND YOUR MOVIE
           </h2>
           <div
             class="search search-bar"
           >
             <input
               class="search search-bar__input"
-              placeholder="SEARCH_PLACEHOLDER"
+              placeholder="What do you want to watch?"
               value=""
             />
             <button
               class="search search-bar__btn"
             >
-              SEARCH_BUTTON
+              SEARCH
             </button>
           </div>
         </div>
@@ -69,17 +72,20 @@ Object {
           <span
             class="header__top logo--left"
           >
-            APP_NAME
+            netflix
           </span>
           <span
             class="header__top logo--right"
-          />
+          >
+            roulette
+          </span>
         </h1>
         <button
           class="header__top btn"
         >
-          ADD_MOVIE
-           +
+          ADD MOVIE
+           
+          +
         </button>
       </div>
       <div
@@ -88,20 +94,20 @@ Object {
         <h2
           class="search title"
         >
-          SEARCH_TITLE
+          FIND YOUR MOVIE
         </h2>
         <div
           class="search search-bar"
         >
           <input
             class="search search-bar__input"
-            placeholder="SEARCH_PLACEHOLDER"
+            placeholder="What do you want to watch?"
             value=""
           />
           <button
             class="search search-bar__btn"
           >
-            SEARCH_BUTTON
+            SEARCH
           </button>
         </div>
       </div>

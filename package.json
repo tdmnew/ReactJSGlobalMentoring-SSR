@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
     "build": "next build",
-    "start": "concurrently \"next start\" \"cd ./MoviesAPI.ReactJS && npm start\" ",
-    "test": "jest"
+    "heroku-postbuild": "npm run build",
+    "start": "next start -p $PORT",
+    "test": "jest",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.0",
@@ -23,7 +26,8 @@
     "redux": "^4.0.5",
     "redux-saga": "^1.1.3",
     "sass": "^1.32.2",
-    "swr": "^0.4.0"
+    "swr": "^0.4.0",
+    "uninstall": "0.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -37,6 +41,12 @@
     "babel-loader": "^8.2.2",
     "concurrently": "^6.0.0",
     "css-loader": "^5.0.1",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^26.6.3",
     "jest-css-modules-transform": "^4.2.0",
     "jest-dom": "^4.0.0",

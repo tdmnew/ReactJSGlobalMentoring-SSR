@@ -38,4 +38,4 @@ describe("Nav", () => {
         expect(screen.getByText(/GENRE/i)).toBeInTheDocument();
         expect(screen.getByText(/RATING/i)).toBeInTheDocument();
     });
-}););
+});
